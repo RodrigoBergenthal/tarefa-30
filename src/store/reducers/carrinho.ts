@@ -21,7 +21,7 @@ const carrinhoSlice = createSlice({
         alert('Item já adicionado')
       } else {
         state.itens.push(produto)
-        // state.itens = [...state.itens, produto]
+        // vou usar o push mesmo]
       }
     }
   }
